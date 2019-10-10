@@ -17,42 +17,59 @@ namespace CalculatorChallenge
             Console.WriteLine("0) Exit");
             Console.WriteLine();
             Console.Write("> ");
-            Console.ReadLine();
 
             //handle user input
-            int UserSelection = int.Parse(Console.ReadLine());
-            int MathSelection = UserSelection;
-            int a = 0;
-            int b = 0;
-            Console.Write("Please enter the first number:");
-            a = int.Parse(Console.ReadLine());
-            Console.Write("Please enter the second number:");
-            b = int.Parse(Console.ReadLine());
-            int addResults = Calculate.AddNumbers(a, b);
-            Console.WriteLine($"the results of adding {a} + {b} are {addResults}");
-
-            if (MathSelection == 0)
+            int MathSelection;
+            //do while
+            do
             {
+                Console.WriteLine("Make Choice");
+                int userChoice = int.Parse(Console.ReadLine());
+                MathSelection = userChoice;
+                Calculate Calculate = new Calculate();
+                if (MathSelection == 1)
+                {
+                    Console.Write("Please enter the first number:");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.Write("Please enter the second number:");
+                    int b = int.Parse(Console.ReadLine());
 
+                    int addResults = Calculate.AddNumbers(a, b);
+                    Console.WriteLine($"the results of adding {a} + {b} is {addResults}");
 
+                }
+                if (MathSelection == 2)
+                {
+                    Console.Write("Please enter the first number:");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.Write("Please enter the second number:");
+                    int b = int.Parse(Console.ReadLine());
 
+                    int SubtractResults = Calculate.SubtractNumbers(a, b);
+                    Console.WriteLine($"the results of Subtracting {a} - {b} is {SubtractResults}");
+                }
+                if (MathSelection == 3)
+                {
+                    Console.Write("Please enter the first number:");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.Write("Please enter the second number:");
+                    int b = int.Parse(Console.ReadLine());
+
+                    int MultiplyResults = Calculate.MultiplyNumbers(a, b);
+                    Console.WriteLine($"the results of Multiplying {a} X {b} is {MultiplyResults}");
+                }
+                if (MathSelection == 4)
+                {
+                    Console.Write("Please enter the first number:");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.Write("Please enter the second number:");
+                    int b = int.Parse(Console.ReadLine());
+
+                    int DivideResults = Calculate.DivideNumbers(a, b);
+                    Console.WriteLine($"the results of Dividing {a} / {b} is {DivideResults}");
+                }
             }
-            else if (MathSelection == 1)
-            {
-
-            }
-            else if (MathSelection == 2)
-            {
-
-            }
-            else if (MathSelection == 3)
-            {
-
-            }
-            else if (MathSelection == 4)
-            {
-
-            }
+            while (MathSelection != 0);
 
         }
     }
