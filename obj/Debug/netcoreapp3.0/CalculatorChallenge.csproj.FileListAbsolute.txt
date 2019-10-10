@@ -1,0 +1,11 @@
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.exe
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.deps.json
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.runtimeconfig.json
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.runtimeconfig.dev.json
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.dll
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.pdb
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.csprojAssemblyReference.cache
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfoInputs.cache
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfo.cs
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.dll
+C:\Users\marla\workspace\c#\practice\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.pdb
